@@ -168,7 +168,7 @@ export default function Home() {
     logActivity(3, activeSubjectId);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch("/API/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
