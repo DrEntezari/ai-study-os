@@ -1,0 +1,26 @@
+{
+  "name": "Darsino - دستیار لوکس هوشمند مطالعه",
+  "short_name": "Darsino",
+  "description": "فضای کاری هوشمند مطالعه از پایه اول تا دوازدهم",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d10",
+  "theme_color": "#0d0d10",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
