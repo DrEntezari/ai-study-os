@@ -206,7 +206,7 @@ export default function Home() {
     setGenError("");
 
     try {
-      const response = await fetch("/api/generate", {
+      const response = await fetch("/API/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
